@@ -128,9 +128,32 @@ flowchart TD
 }
 
 <!-- LOGGING --> <h2 id="logging">📝 Logging</h2> <p>Runtime warnings/errors are saved to <code>Instagram_SMS.log</code>.</p> <details> <summary>Sample log</summary>
-2025-08-25 10:05:13,245:WARNING:Login attempt started
-2025-08-25 10:05:19,657:WARNING:Successfully logged in
-2025-08-25 10:05:46,892:WARNING:Collected 12 posts for keyword: ryzen3
-2025-08-25 10:06:21,540:WARNING:Post data saved to output.json
+2025-07-26 15:08:32,488:ERROR:Login error occurred
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/section/main/div/div/div[1]/div[2]/form/div/div[1]/div/label/input"}
+  (Session info: chrome=114.0.5735.198)
+Stacktrace:
+#0 0x55ca9d5a54e3 <unknown>
+#1 0x55ca9d2d4c76 <unknown>
+#2 0x55ca9d310c96 <unknown>
+#3 0x55ca9d310dc1 <unknown>
+#4 0x55ca9d34a7f4 <unknown>
+#5 0x55ca9d33003d <unknown>
+#6 0x55ca9d34830e <unknown>
+#7 0x55ca9d32fde3 <unknown>
+#8 0x55ca9d3052dd <unknown>
+#9 0x55ca9d30634e <unknown>
+#10 0x55ca9d5653e4 <unknown>
+#11 0x55ca9d5693d7 <unknown>
+#12 0x55ca9d573b20 <unknown>
+#13 0x55ca9d56a023 <unknown>
+#14 0x55ca9d5381aa <unknown>
+#15 0x55ca9d58e6b8 <unknown>
+#16 0x55ca9d58e847 <unknown>
+#17 0x55ca9d59e243 <unknown>
+#18 0x7fd5e20c33ec <unknown>
 
-</details> <!-- BEST PRACTICES --> <h2 id="tips">🧠 Best Practices</h2> <ul> <li>Use a secondary account; respect rate limits and platform ToS.</li> <li>Randomize delays; avoid very aggressive scrolling.</li> <li>Keep <code>webdriver-manager</code> and <code>selenium</code> updated.</li> <li>Selectors/XPaths may change; review periodically.</li> <li>Consider rotating proxies if scraping at scale.</li> </ul> <!-- PROJECT STRUCTURE --> <h2>📁 Project Structure</h2> <pre> instagram-scraper/ ├─ instagram_scraper.py ├─ config.ini # not committed (secrets) ├─ requirements.txt ├─ keywords.txt ├─ Instagram_SMS.log # generated └─ output.json # generated </pre> <!-- CREDITS / DISCLAIMER --> <h2 id="credits">🙌 Credits & Disclaimer</h2> <p><strong>Credit:</strong> Full credit goes to <em>ulethon</em>.</p> <p><strong>Disclaimer:</strong> For educational/research use only. Ensure compliance with Instagram’s Terms of Service and local laws. You are responsible for how you use this code.</p> <hr/> <p align="center">Made with ❤️ for clean data collection and learning.</p> ```
+************************************************
+In this files all Error will be save as a logs
+************************************************
+
+</details> <!-- BEST PRACTICES --> <h2 id="tips">🧠 Best Practices</h2> <ul> <li>Use a secondary account; respect rate limits and platform ToS.</li> <li>Randomize delays; avoid very aggressive scrolling.</li> <li>Keep <code>webdriver-manager</code> and <code>selenium</code> updated.</li> <li>Selectors/XPaths may change; review periodically.</li> <li>Consider rotating proxies if scraping at scale.</li> </ul> <!-- PROJECT STRUCTURE --> <h2>📁 Project Structure</h2> <pre> instagram-scraper/ ├─ instagram_scraper.py ├─ config.ini # not committed (secrets) ├─ requirements.txt ├─ keywords.txt ├─ Instagram_SMS.log # generated └─ output.json # generated </pre> <!-- CREDITS / DISCLAIMER --> <h2 id="credits">🙌 Credits & Disclaimer</h2> <p><strong>Credit:</strong> Full credit goes to <em>ulethon</em>.</p> <p><strong>Disclaimer:</strong> For educational/research use only. Ensure compliance with Instagram’s Terms of Service and local laws. You are responsible for how you use this code.</p> <hr/> <p align="center">Made with ❤️ for clean data collection and learning.</p>
