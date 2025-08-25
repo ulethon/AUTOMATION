@@ -1,5 +1,5 @@
 <!-- HEADER / BANNER -->
-<h1 align="center" style="margin-bottom:0;">📸 Instagram Scraper</h1>
+<h1 align="center" style="margin-bottom:0;">📸 Search Instagram</h1>
 <p align="center" style="margin-top:6px;">
   <em>A lightweight Selenium + Brave automation to collect Instagram posts by hashtags/keywords and export clean JSON.</em>
 </p>
@@ -80,20 +80,14 @@
 ```txt
 selenium
 webdriver-manager
-</details> <!-- INSTALLATION --> <h2 id="installation">🛠️ Installation</h2> <pre> git clone https://github.com/yourusername/instagram-scraper.git cd instagram-scraper
-(optional) virtual environment
+</details> <!-- INSTALLATION --> <h2 id="installation">🛠️ Installation</h2> <pre> git clone https://github.com/yourusername/instagram-scraper.git cd search-insta
+(optional) virtual environment - python -m venv .venv
 
-python -m venv .venv
-
-Linux/Mac
-
-source .venv/bin/activate
-
-Windows
-
-.venv\Scripts\activate
+Linux/Mac - source .venv/bin/activate
+Windows - .venv\Scripts\activate
 
 pip install -r requirements.txt
+
 </pre>
 
 <!-- CONFIGURATION --> <h2 id="configuration">⚙️ Configuration</h2> <p>Create <code>config.ini</code> in the project root:</p>
