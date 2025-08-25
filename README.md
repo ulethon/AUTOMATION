@@ -26,11 +26,11 @@ More scripts will be added in the future 🚀
 
 <!-- REPO STRUCTURE -->
 <h2>📂 Repository Structure</h2>
-AUTOMATION/
-├─ Search_Insta/     # Instagram automation script
-├─ Search_Quora/     # Quora automation script
-├─ New_Script/       # (Future scripts will go here)
-└─ README.md         # This hub documentation
+AUTOMATION/<br>
+├─ Search_Insta/     # Instagram automation script<br>
+├─ Search_Quora/     # Quora automation script<br>
+├─ New_Script/       # (Future scripts will go here)<br>
+└─ README.md         # This hub documentation<br>
 <hr/> <!-- AVAILABLE SCRIPTS --> <h2>📜 Available Scripts</h2> <p>Click on any script to view detailed documentation & usage.</p> <ul> <li>📷 <a href="./Search_Insta/README.md"><strong>Instagram Scraper</strong></a></li> <li>📝 <a href="./Search_Quora/README.md"><strong>Quora Scraper</strong></a></li> <!-- Add new scripts below as the repo grows --> </ul> <hr/> <!-- FEATURES --> <h2>✨ Core Features Across Scripts</h2> <table> <tr> <td><h3>🔑 Authentication</h3><p>Automated login with config-based credentials.</p></td> <td><h3>🔍 Search</h3><p>Keyword, hashtag, or time-based filtering.</p></td> <td><h3>📄 Export</h3><p>Outputs structured <code>JSON</code> data.</p></td> </tr> <tr> <td><h3>🛡️ Logging</h3><p>Error & activity logs in <code>.log</code> files.</p></td> <td><h3>⚙️ Selenium</h3><p>Automation using Brave + WebDriver Manager.</p></td> <td><h3>📊 Visualization</h3><p>Mermaid workflow diagrams included in docs.</p></td> </tr> </table> <hr/> <!-- WORKFLOW --> <h2>📊 General Workflow</h2>
 flowchart TD
     A[Start] --> B[Select Script]
