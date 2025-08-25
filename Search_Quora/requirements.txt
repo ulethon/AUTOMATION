@@ -1,0 +1,10 @@
+argparse
+json
+regex
+random
+hashlib
+configparser
+logging
+datetime
+selenium
+webdriver-manager
