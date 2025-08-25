@@ -77,7 +77,6 @@
 <details>
 <summary><strong>requirements.txt</strong> (click to expand)</summary>
 
-```txt
 selenium
 webdriver-manager
 </details> <!-- INSTALLATION --> <h2 id="installation">🛠️ Installation</h2> <pre> git clone https://github.com/yourusername/instagram-scraper.git cd search-insta
