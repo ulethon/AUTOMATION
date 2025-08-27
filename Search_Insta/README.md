@@ -112,20 +112,20 @@ flowchart TD
     I --> J[Write logs & Exit]
 
 <!-- OUTPUT --> <h2 id="output">📄 Example Output (JSON)</h2>
-{
-  "Cust_ID": "0001",
-  "Run_ID": "12345",
-  "component-type": "Scrapper",
-  "Job_ID": "1234568jack",
-  "Source": "Instagram",
-  "Source_url": "https://www.instagram.com/p/CosltGfJKfJ/",
-  "original_poster_profile": "elingecomputadores",
-  "fake_posting_url": "[]",
-  "keyword_matched": "ryzen3",
-  "original_msg": "elingecomputadores 🤓💻 Actualización PC Gamer con Ryzen 3 3200G ...",
-  "post_date": "FEBRUARY 16",
-  "finding_date": "2023-06-22 10:08:21"
-}
+{<br>
+  "Cust_ID": "0001",<br>
+  "Run_ID": "12345",<br>
+  "component-type": "Scrapper",<br>
+  "Job_ID": "1234568jack",<br>
+  "Source": "Instagram",<br>
+  "Source_url": "https://www.instagram.com/p/CosltGfJKfJ/",<br>
+  "original_poster_profile": "elingecomputadores",<br>
+  "fake_posting_url": "[]",<br>
+  "keyword_matched": "ryzen3",<br>
+  "original_msg": "elingecomputadores 🤓💻 Actualización PC Gamer con Ryzen 3 3200G ...",<br>
+  "post_date": "FEBRUARY 16",<br>
+  "finding_date": "2023-06-22 10:08:21"<br>
+}<br>
 
 <!-- LOGGING --> <h2 id="logging">📝 Logging</h2> <p>Runtime warnings/errors are saved to <code>Instagram_SMS.log</code>.</p> <details> <summary>Sample log</summary>
 2025-07-26 15:08:32,488:ERROR:Login error occurred
